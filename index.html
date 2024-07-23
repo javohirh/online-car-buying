@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b76e356ba6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="notification">
+      <p>
+        Car added in your card !
+        <i onclick="myFunction()" class="fa-solid fa-x"></i>
+      </p>
+    </div>
+    <div class="main">
+      <h1>Choose your favorite <span class="car">Car</span></h1>
+      <hr />
+      <div class="card">
+        <img
+          class="person-img"
+          src="./images/rolls-Royce.jpeg"
+          alt="rolls-royce car"
+        />
+
+        <h2 class="carName">Rolls-Royce</h2>
+        <h2 class="carPrice">Price : 1 M$</h2>
+        <p class="info">
+          Rolls-Royce Motor Cars Limited is a British luxury automobile maker
+          that has operated as a wholly owned subsidiary of BMW AG since 2003 –
+          as the exclusive manufacturer of Rolls-Royce-branded motor cars.
+        </p>
+        <div class="arrows">
+          <button class="left-arrow">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <button class="right-arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <button onclick="myFunction()" id="cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
